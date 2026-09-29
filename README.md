@@ -73,15 +73,15 @@ The table below catalogs leading commercial SaaS optimization platforms, sorted 
 
 ## 🛠️ Open-Source GitHub Projects
 
-This section catalogs battle-tested open-source projects for self-hosting, custom automation logic, and transparent cloud telemetry. Each project includes a real-time GitHub star count badge and is organized by domain, **sorted by star count descending**.
+This section catalogs battle-tested open-source projects for self-hosting, custom automation logic, and transparent cloud telemetry. Each project includes a real-time GitHub Stars_Count badge and is organized by domain, **sorted by Stars_Count descending**.
 
 ### 🏗️ Infrastructure as Code (IaC) & Pre-Deployment Cost Estimation
 
-- **[Infracost](https://github.com/infracost/infracost)** [![GitHub stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
+- **[Infracost](https://github.com/infracost/infracost)** [![GitHub_Stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
   *Shift FinOps left by estimating cloud costs directly in pull requests.*  
   Infracost scans Terraform code, Terraform Cloud, and Infracost CLI runs to generate real-time cost impact reports on PRs before infrastructure is provisioned, preventing budget overruns before they reach production.
 
-- **[Terracost](https://github.com/cycloidio/terracost)** [![GitHub stars](https://img.shields.io/github/stars/cycloidio/terracost?style=social&color=white)](https://github.com/cycloidio/terracost/stargazers)  
+- **[Terracost](https://github.com/cycloidio/terracost)** [![GitHub_Stars](https://img.shields.io/github/stars/cycloidio/terracost?style=social&color=white)](https://github.com/cycloidio/terracost/stargazers)  
   *Cloud cost estimation tool for Terraform in your local CLI.*  
   Analyzes Terraform plans against cloud pricing data to calculate estimated infrastructure costs directly during early development cycles.
 
@@ -89,19 +89,19 @@ This section catalogs battle-tested open-source projects for self-hosting, custo
 
 ### ⚡ Kubernetes Autoscaling, Node Provisioning & Spot Management
 
-- **[Karpenter](https://github.com/kubernetes-sigs/karpenter)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/karpenter?style=social&color=white)](https://github.com/kubernetes-sigs/karpenter/stargazers)  
+- **[Karpenter](https://github.com/kubernetes-sigs/karpenter)** [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes-sigs/karpenter?style=social&color=white)](https://github.com/kubernetes-sigs/karpenter/stargazers)  
   *Next-generation, high-performance Kubernetes node autoscaler.*  
-  Built under CNCF SIGs (with widespread AWS deployment via [karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) [![GitHub stars](https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white)](https://github.com/aws/karpenter-provider-aws/stargazers)), Karpenter rapidly launches right-sized compute nodes directly in response to pending pods. It continuously consolidates, bin-packs, and terminates underutilized nodes to maximize compute efficiency and minimize cluster costs.
+  Built under CNCF SIGs (with widespread AWS deployment via [karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) [![GitHub_Stars](https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white)](https://github.com/aws/karpenter-provider-aws/stargazers)), Karpenter rapidly launches right-sized compute nodes directly in response to pending pods. It continuously consolidates, bin-packs, and terminates underutilized nodes to maximize compute efficiency and minimize cluster costs.
 
-- **[Cloud Nuke](https://github.com/gruntwork-io/cloud-nuke)** [![GitHub stars](https://img.shields.io/github/stars/gruntwork-io/cloud-nuke?style=social&color=white)](https://github.com/gruntwork-io/cloud-nuke/stargazers)  
+- **[Cloud Nuke](https://github.com/gruntwork-io/cloud-nuke)** [![GitHub_Stars](https://img.shields.io/github/stars/gruntwork-io/cloud-nuke?style=social&color=white)](https://github.com/gruntwork-io/cloud-nuke/stargazers)  
   *Automated multi-cloud resource cleanup CLI.*  
   Powerful utility to delete all resources in cloud accounts (AWS, Azure, GCP). Invaluable for cleaning up zombie test/staging accounts, ephemeral CI/CD environments, and eliminating runaway infrastructure waste.
 
-- **[AutoSpotting](https://github.com/AutoSpotting/AutoSpotting)** [![GitHub stars](https://img.shields.io/github/stars/AutoSpotting/AutoSpotting?style=social&color=white)](https://github.com/AutoSpotting/AutoSpotting/stargazers)  
+- **[AutoSpotting](https://github.com/AutoSpotting/AutoSpotting)** [![GitHub_Stars](https://img.shields.io/github/stars/AutoSpotting/AutoSpotting?style=social&color=white)](https://github.com/AutoSpotting/AutoSpotting/stargazers)  
   *Automated EC2 Spot instance replacement engine.*  
   Converts existing AutoScalingGroups into diversified, cost-effective Spot instances on-the-fly without requiring modifications to original AutoScalingGroup configurations, providing up to 90% savings.
 
-- **[KubeSurvival](https://github.com/aporia-ai/kubesurvival)** [![GitHub stars](https://img.shields.io/github/stars/aporia-ai/kubesurvival?style=social&color=white)](https://github.com/aporia-ai/kubesurvival/stargazers)  
+- **[KubeSurvival](https://github.com/aporia-ai/kubesurvival)** [![GitHub_Stars](https://img.shields.io/github/stars/aporia-ai/kubesurvival?style=social&color=white)](https://github.com/aporia-ai/kubesurvival/stargazers)  
   *Cheapest instance type finder for Kubernetes.*  
   Analyzes cluster pod resource requirements and recommends the most cost-effective machine types and node group combinations to run workloads reliably.
 
@@ -109,43 +109,43 @@ This section catalogs battle-tested open-source projects for self-hosting, custo
 
 ### 📊 FinOps Platforms, Cost Monitoring & Governance
 
-- **[Steampipe](https://github.com/turbot/steampipe)** [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)  
+- **[Steampipe](https://github.com/turbot/steampipe)** [![GitHub_Stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)  
   *Query live cloud infrastructure using SQL without ETL pipelines.*  
   Features 150+ plugins covering AWS, Azure, GCP, and Kubernetes. Enables engineers to write simple SQL queries to immediately surface idle volumes, untagged resources, zombie load balancers, and unattached IP addresses.
 
-- **[OpenCost](https://github.com/opencost/opencost)** [![GitHub stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)  
+- **[OpenCost](https://github.com/opencost/opencost)** [![GitHub_Stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)  
   *CNCF Incubating vendor-neutral Kubernetes and cloud cost allocation engine.*  
   Provides real-time cost allocation and breakdown by cluster, node, namespace, controller, service, or pod. Supports AWS, GCP, Azure, on-prem bare metal, GPU telemetry, and Model Context Protocol (MCP) servers for AI agent integrations.
 
-- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
+- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub_Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
   *CNCF Incubating rules engine for cloud governance, cost management, and security.*  
   Uses a simple YAML-based DSL to define and enforce automated policies. Native capabilities include scheduling resource off-hours, auto-stopping non-production clusters, enforcing tags, and cleaning up orphan snapshots across AWS, Azure, and GCP.
 
-- **[Komiser](https://github.com/tailwarden/komiser)** [![GitHub stars](https://img.shields.io/github/stars/tailwarden/komiser?style=social&color=white)](https://github.com/tailwarden/komiser/stargazers)  
+- **[Komiser](https://github.com/tailwarden/komiser)** [![GitHub_Stars](https://img.shields.io/github/stars/tailwarden/komiser?style=social&color=white)](https://github.com/tailwarden/komiser/stargazers)  
   *Cloud resource manager and inventory analyzer.*  
   Scans multi-cloud environments (AWS, Azure, GCP, DigitalOcean, Civo, OCI) to build a unified infrastructure inventory, detecting misconfigurations, unused resources, and hidden spend drivers.
 
-- **[OptScale](https://github.com/hystax/optscale)** [![GitHub stars](https://img.shields.io/github/stars/hystax/optscale?style=social&color=white)](https://github.com/hystax/optscale/stargazers)  
+- **[OptScale](https://github.com/hystax/optscale)** [![GitHub_Stars](https://img.shields.io/github/stars/hystax/optscale?style=social&color=white)](https://github.com/hystax/optscale/stargazers)  
   *Comprehensive open-source FinOps platform with MLOps/GPU cost governance.*  
   Supports AWS, Azure, GCP, Alibaba Cloud, and Kubernetes. Delivers cost analytics, anomaly detection, rightsizing recommendations, budget alerts, and specialized cost tracking for AI training and LLM inference clusters.
 
-- **[Koku](https://github.com/project-koku/koku)** [![GitHub stars](https://img.shields.io/github/stars/project-koku/koku?style=social&color=white)](https://github.com/project-koku/koku/stargazers)  
+- **[Koku](https://github.com/project-koku/koku)** [![GitHub_Stars](https://img.shields.io/github/stars/project-koku/koku?style=social&color=white)](https://github.com/project-koku/koku/stargazers)  
   *Red Hat open-source multi-cloud cost management service.*  
   Aggregates, categorizes, and reports infrastructure spend across AWS, Azure, GCP, and OpenShift/Kubernetes clusters with comprehensive organizational attribution.
 
-- **[CostScope](https://github.com/costscope/costscope)** [![GitHub stars](https://img.shields.io/github/stars/costscope/costscope?style=social&color=white)](https://github.com/costscope/costscope/stargazers)  
+- **[CostScope](https://github.com/costscope/costscope)** [![GitHub_Stars](https://img.shields.io/github/stars/costscope/costscope?style=social&color=white)](https://github.com/costscope/costscope/stargazers)  
   *Open FinOps and governance platform for AI, LLM, and GPU workloads.*  
   FOCUS 1.2 compatible. Ingests and normalizes AWS CUR, Azure, and GCP billing data. Integrates Kepler for GPU power and carbon metrics, and provides token-level LLM cost attribution.
 
-- **[ecos](https://github.com/ecos-labs/ecos)** [![GitHub stars](https://img.shields.io/github/stars/ecos-labs/ecos?style=social&color=white)](https://github.com/ecos-labs/ecos/stargazers)  
+- **[ecos](https://github.com/ecos-labs/ecos)** [![GitHub_Stars](https://img.shields.io/github/stars/ecos-labs/ecos?style=social&color=white)](https://github.com/ecos-labs/ecos/stargazers)  
   *Open-source FinOps data stack powered by dbt and DuckDB.*  
   Transforms complex cloud billing data (AWS CUR) into clean, high-performance analytical datasets using 40+ pre-built dbt models. Includes an MCP server for natural language FinOps querying.
 
-- **[Multi-Cloud FinOps](https://github.com/priyaranjan-sahu/multi-cloud-finops)** [![GitHub stars](https://img.shields.io/github/stars/priyaranjan-sahu/multi-cloud-finops?style=social&color=white)](https://github.com/priyaranjan-sahu/multi-cloud-finops/stargazers)  
+- **[Multi-Cloud FinOps](https://github.com/priyaranjan-sahu/multi-cloud-finops)** [![GitHub_Stars](https://img.shields.io/github/stars/priyaranjan-sahu/multi-cloud-finops?style=social&color=white)](https://github.com/priyaranjan-sahu/multi-cloud-finops/stargazers)  
   *Multi-cloud cost optimization and anomaly detection engine.*  
   Compliant with FinOps Open Cost and Usage Specification (FOCUS 1.0). Provides automated spend forecasting, rightsizing logic, and KEDA autoscaler integration across AWS, GCP, and Azure.
 
-- **[Fadvisor (FinOps Advisor)](https://github.com/gocrane/fadvisor)** [![GitHub stars](https://img.shields.io/github/stars/gocrane/fadvisor?style=social&color=white)](https://github.com/gocrane/fadvisor/stargazers)  
+- **[Fadvisor (FinOps Advisor)](https://github.com/gocrane/fadvisor)** [![GitHub_Stars](https://img.shields.io/github/stars/gocrane/fadvisor?style=social&color=white)](https://github.com/gocrane/fadvisor/stargazers)  
   *Cloud pricing and billing telemetry exporters.*  
   Collects and exposes real-time pricing data for major cloud providers to enable fine-grained container cost allocation in Prometheus.
 
@@ -153,39 +153,39 @@ This section catalogs battle-tested open-source projects for self-hosting, custo
 
 ### 🎯 Kubernetes Workload Rightsizing & Resource Optimization
 
-- **[Crane](https://github.com/gocrane/crane)** [![GitHub stars](https://img.shields.io/github/stars/gocrane/crane?style=social&color=white)](https://github.com/gocrane/crane/stargazers)  
+- **[Crane](https://github.com/gocrane/crane)** [![GitHub_Stars](https://img.shields.io/github/stars/gocrane/crane?style=social&color=white)](https://github.com/gocrane/crane/stargazers)  
   *Cloud Resource Analytics and Economics platform for Kubernetes.*  
   Delivers automated time-series forecasting, workload rightsizing (CPU/memory requests), effective HPA scheduling (TimeSeriesPredictor), and resource QoS isolation to maximize cluster utilization while guaranteeing service quality.
 
-- **[Robusta](https://github.com/robusta-dev/robusta)** [![GitHub stars](https://img.shields.io/github/stars/robusta-dev/robusta?style=social&color=white)](https://github.com/robusta-dev/robusta/stargazers)  
+- **[Robusta](https://github.com/robusta-dev/robusta)** [![GitHub_Stars](https://img.shields.io/github/stars/robusta-dev/robusta?style=social&color=white)](https://github.com/robusta-dev/robusta/stargazers)  
   *Kubernetes observability, automated troubleshooting, and cost profiling.*  
   Monitors cluster health and immediately surfaces OOMKilled containers, CPU throttling, and overprovisioned deployments directly in Slack/Teams with automated remediation workflows.
 
-- **[Kube-capacity](https://github.com/robscott/kube-capacity)** [![GitHub stars](https://img.shields.io/github/stars/robscott/kube-capacity?style=social&color=white)](https://github.com/robscott/kube-capacity/stargazers)  
+- **[Kube-capacity](https://github.com/robscott/kube-capacity)** [![GitHub_Stars](https://img.shields.io/github/stars/robscott/kube-capacity?style=social&color=white)](https://github.com/robscott/kube-capacity/stargazers)  
   *Fast CLI to view resource requests, limits, and utilization.*  
   Provides a clean, intuitive terminal overview of total CPU and memory requests, limits, and live utilization across pods, nodes, and namespaces.
 
-- **[Goldilocks](https://github.com/FairwindsOps/goldilocks)** [![GitHub stars](https://img.shields.io/github/stars/FairwindsOps/goldilocks?style=social&color=white)](https://github.com/FairwindsOps/goldilocks/stargazers)  
+- **[Goldilocks](https://github.com/FairwindsOps/goldilocks)** [![GitHub_Stars](https://img.shields.io/github/stars/FairwindsOps/goldilocks?style=social&color=white)](https://github.com/FairwindsOps/goldilocks/stargazers)  
   *Automated baseline resource request and limit suggestions.*  
   Creates Vertical Pod Autoscaler (VPA) objects in "recommendation-only" mode to establish a baseline "just right" starting point for pod resource requests and limits without disrupting running pods.
 
-- **[Kube Resource Suggest (KRS)](https://github.com/joe-l-mathew/kube-resource-suggest)** [![GitHub stars](https://img.shields.io/github/stars/joe-l-mathew/kube-resource-suggest?style=social&color=white)](https://github.com/joe-l-mathew/kube-resource-suggest/stargazers)  
+- **[Kube Resource Suggest (KRS)](https://github.com/joe-l-mathew/kube-resource-suggest)** [![GitHub_Stars](https://img.shields.io/github/stars/joe-l-mathew/kube-resource-suggest?style=social&color=white)](https://github.com/joe-l-mathew/kube-resource-suggest/stargazers)  
   *Suggestion-first, GitOps-safe Kubernetes resource optimizer.*  
   Never modifies live workloads directly. Emits non-intrusive `ResourceSuggestion` custom resources for team review using a hybrid Prometheus + Kubelet telemetry methodology with zero developer configuration.
 
-- **[CruiseKube](https://github.com/truefoundry/CruiseKube)** [![GitHub stars](https://img.shields.io/github/stars/truefoundry/CruiseKube)](https://github.com/truefoundry/CruiseKube/stargazers)  
+- **[CruiseKube](https://github.com/truefoundry/CruiseKube)** [![GitHub_Stars](https://img.shields.io/github/stars/truefoundry/CruiseKube)](https://github.com/truefoundry/CruiseKube/stargazers)  
   *Closed-loop autonomous Kubernetes rightsizing controller.*  
   Continuously monitors workload behavior and autonomously rightsizes CPU and memory requests at runtime and admission time, incrementally converging allocations to actual demand.
 
-- **[k8s-rightsizer](https://github.com/mcpunzo/k8s-rightsizer)** [![GitHub stars](https://img.shields.io/github/stars/mcpunzo/k8s-rightsizer?style=social&color=white)](https://github.com/mcpunzo/k8s-rightsizer/stargazers)  
+- **[k8s-rightsizer](https://github.com/mcpunzo/k8s-rightsizer)** [![GitHub_Stars](https://img.shields.io/github/stars/mcpunzo/k8s-rightsizer?style=social&color=white)](https://github.com/mcpunzo/k8s-rightsizer/stargazers)  
   *Production-grade rightsizing controller with automatic rollback safety.*  
   Automatically rolls back to previous stable configurations if a newly rightsized pod experiences failures (e.g., OOMKilled, CrashLoopBackOff, or Unschedulable). Proven in production with 30%+ cost savings.
 
-- **[SleepCycles](https://github.com/rekuberate-io/sleepcycles)** [![GitHub stars](https://img.shields.io/github/stars/rekuberate-io/sleepcycles?style=social&color=white)](https://github.com/rekuberate-io/sleepcycles/stargazers)  
+- **[SleepCycles](https://github.com/rekuberate-io/sleepcycles)** [![GitHub_Stars](https://img.shields.io/github/stars/rekuberate-io/sleepcycles?style=social&color=white)](https://github.com/rekuberate-io/sleepcycles/stargazers)  
   *Off-hours sleep and wake-up scheduler for Kubernetes workloads.*  
   Automates scheduled scale-down/sleep of Deployments, StatefulSets, CronJobs, and HPAs during nights and weekends, reducing non-production compute expenses and carbon footprint.
 
-- **[Cloud-Native K8s Optimizer](https://github.com/Sudharsanselvaraj/Cloud-Native-K8s-Cluster-Resource-Analysis-and-Optimization-Engine)** [![GitHub stars](https://img.shields.io/github/stars/Sudharsanselvaraj/Cloud-Native-K8s-Cluster-Resource-Analysis-and-Optimization-Engine?style=social&color=white)](https://github.com/Sudharsanselvaraj/Cloud-Native-K8s-Cluster-Resource-Analysis-and-Optimization-Engine/stargazers)  
+- **[Cloud-Native K8s Optimizer](https://github.com/Sudharsanselvaraj/Cloud-Native-K8s-Cluster-Resource-Analysis-and-Optimization-Engine)** [![GitHub_Stars](https://img.shields.io/github/stars/Sudharsanselvaraj/Cloud-Native-K8s-Cluster-Resource-Analysis-and-Optimization-Engine?style=social&color=white)](https://github.com/Sudharsanselvaraj/Cloud-Native-K8s-Cluster-Resource-Analysis-and-Optimization-Engine/stargazers)  
   *Workload utilization and overprovisioning analysis engine.*  
   Scans container CPU/memory usage patterns, identifies overprovisioned deployments, and outputs rightsizing recommendations with configurable safety headroom buffers.
 
@@ -251,7 +251,7 @@ Contributions from the community make this directory comprehensive and up-to-dat
 2. **Create a branch** for your changes: `git checkout -b add-tool-name`.
 3. **Add or edit entries** in `README.md` following the established structure:
    - For **SaaS platforms**: Add to the table with Product Name/Link, Description, specific starting Tier Price, Free Tier Limits, and Company Size / Valuation / Revenue.
-   - For **Open-Source projects**: Include Name, link, live star badge `[![GitHub stars](https://img.shields.io/github/stars/OWNER/REPO?style=social&color=white)](https://github.com/OWNER/REPO/stargazers)`, and concise description. Sort alphabetically or by stars within the appropriate category.
+   - For **Open-Source projects**: Include Name, link, live Stars_Badge `[![GitHub_Stars](https://img.shields.io/github/stars/OWNER/REPO?style=social&color=white)](https://github.com/OWNER/REPO/stargazers)`, and concise description. Sort alphabetically or by stars within the appropriate category.
 4. **Test links and formatting** to ensure markdown rendering is clean.
 5. **Submit a Pull Request** with a brief summary of what was added or updated.
 
