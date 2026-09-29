@@ -7,3 +7,5 @@ __pycache__/
 contributors.txt
 node_modules
 temp_repo_clone
+
+.python-version
